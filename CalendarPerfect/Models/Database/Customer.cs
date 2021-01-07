@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalendarPerfect.Models.Database
 {
-    public class Customers : BaseEntity
+    public class Customer : BaseEntity
     {
         [Column("age")]
         public int Age { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CalendarPerfect.Models.Database
 {
-    public class Users : BaseEntity
+    public class User : BaseEntity
     {
         [Column("login")]
         [Required(ErrorMessage = "The login is required")]
