@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CalendarPerfect.Models.Database
 {
+    [Table("users")]
     public class User : BaseEntity
     {
         [Column("login")]
