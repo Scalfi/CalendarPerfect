@@ -21,5 +21,10 @@ namespace CalendarPerfect.Models.Database
         public int CEP { get; set; }
         [NotMapped]
         public string Name { get; set; }
+
+        [ForeignKey(nameof(Customer))]
+        [Column("customer_id")]
+        public int CustomerId { get; set; }
+        public Customer Customers{ get; set; }
     }
 }
