@@ -13,5 +13,11 @@ namespace CalendarPerfect.Models.Database
         [Column("description")]
         [Required( ErrorMessage = "The descrition is riquered")]
         public string Description{ get; set; }
+
+        [ForeignKey(nameof(Customer))]
+        [Column("customer_id")]
+        public int CustomerId { get; set; }
+
+        public Customer Customer { get; set; }
     }
 }
