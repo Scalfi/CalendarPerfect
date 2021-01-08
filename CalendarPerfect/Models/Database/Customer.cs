@@ -24,5 +24,11 @@ namespace CalendarPerfect.Models.Database
         [Required(ErrorMessage = "The email address is required")]
         [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string Email { get; set; }
+
+        [ForeignKey(nameof(User))]
+        [Column("user_id")]
+        public int UserId { get; set; }
+
+        public User User { get; set; }
     }
 }
