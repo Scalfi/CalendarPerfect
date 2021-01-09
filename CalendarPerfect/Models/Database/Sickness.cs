@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalendarPerfect.Models.Database
 {
-    [Table("sickness")]
+    [Table("sicknesses")]
     public class Sickness : BaseEntity
     {
         [Column("description")]

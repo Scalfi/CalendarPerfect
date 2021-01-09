@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalendarPerfect.Models.Database
 {
+    [Table("customer_sicknesses")]
     public class CustomerSickness : BaseEntity
     {
         [ForeignKey(nameof(Sickness))]
