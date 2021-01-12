@@ -8,6 +8,9 @@ namespace CalendarPerfect.Models.Database
 {
     public class PostgresContext : DbContext
     {
+        public PostgresContext(DbContextOptions options) : base(options)
+        {
+        }
 
         public DbSet<User> Users { get; set; }
         public DbSet<Address> Addresses { get; set; }

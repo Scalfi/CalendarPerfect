@@ -21,3 +21,12 @@ C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\obj\Debug\netcoreap
 C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\obj\Debug\netcoreapp5.0\ref\CalendarPerfect.dll
 C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\obj\Debug\netcoreapp5.0\CalendarPerfect.pdb
 C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\obj\Debug\netcoreapp5.0\CalendarPerfect.genruntimeconfig.cache
+C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\bin\Debug\netcoreapp5.0\Humanizer.dll
+C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\bin\Debug\netcoreapp5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\bin\Debug\netcoreapp5.0\Npgsql.dll
+C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\bin\Debug\netcoreapp5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Scalfi\source\repos\CalendarPerfect\CalendarPerfect\obj\Debug\netcoreapp5.0\CalendarPerfect.csproj.CopyComplete
