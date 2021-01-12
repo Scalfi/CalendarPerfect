@@ -20,8 +20,12 @@ namespace CalendarPerfect.Models.Database
 
         [Column("cep")]
         public int CEP { get; set; }
+
+        [Column("street")]
+        public string Street { get; set; }
+
         [NotMapped]
-        public string Name { get; set; }
+        public new string Name { get; set; }
 
         [ForeignKey(nameof(Customer))]
         [Column("customer_id")]
