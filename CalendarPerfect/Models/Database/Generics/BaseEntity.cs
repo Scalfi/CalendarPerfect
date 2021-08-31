@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CalendarPerfect.Models.Database
 {
-    public class BaseEntity
+    public abstract class BaseEntity
     {
         [Key]
         [Column("id")]
